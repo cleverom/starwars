@@ -2,7 +2,7 @@ const main = async () => {
   let url = "https://swapi.dev/api/people/";
   const data = await (await fetch(url)).json();
   let result = data.results;
-  //console.log(result)
+
   let numchar = result.length;
   for (let i = 1; i <= numchar; i++) {
     let nextUrl = `${url}${i}`;
@@ -63,7 +63,7 @@ const main = async () => {
             });
         });
       });
-  }
+  };
 };
 
 main();

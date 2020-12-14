@@ -33,6 +33,13 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  background-color: yellowgreen;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 8px;
+}
+p:hover{
+    background-color: yellow !important;
 }
 
 .info img {

@@ -1,5 +1,5 @@
 const main = async () => {
-  let url = "https://swapi.dev/api/people/";
+  let url = "http://swapi.dev/api/people/";
   const data = await (await fetch(url)).json();
   let result = data.results;
 

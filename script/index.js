@@ -39,7 +39,6 @@ const main = async () => {
               modal.style.display = "none";
             }
           };
-
           let eleid = e.target.parentElement.id;
           let p = parseInt(e.target.id);
           if (e.target.id > 0) {
